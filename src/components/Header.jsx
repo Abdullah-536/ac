@@ -24,7 +24,7 @@ export const Header = () => {
       <div className="logo">MyBrand</div>
       <div className="menu-icon">☰</div>
       <ul className="nav-links">
-        <li><NavLink to="/">Home</NavLink></li>
+        {/* <li><NavLink to="/">Home</NavLink></li> */}
         <li className="dropdown">
           <NavLink to="#">Mobile</NavLink>
           <ul className="dropdown-menu">
