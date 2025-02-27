@@ -1,0 +1,129 @@
+/* Navbar Styles */
+.navbar {
+  background-color: #000;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #FFF0DC;
+  font-size: 18px;
+  padding: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #f29f58;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  list-style: none;
+  padding: 10px;
+  border-radius: 5px;
+  top: 40px;
+  left: 0;
+  min-width: 150px;
+  z-index: 10;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 5px 0;
+}
+
+/* Second-level dropdown for Samsung */
+.sub-dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  list-style: none;
+  padding: 10px;
+  border-radius: 5px;
+  top: 0;
+  left: 100%;
+  min-width: 120px;
+}
+
+.sub-dropdown:hover .sub-dropdown-menu {
+  display: block;
+}
+
+.sub-dropdown a {
+  display: block;
+  color: white;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.sub-dropdown-menu a:hover {
+  color: #f29f58;
+}
+/* Cart Icon Styles */
+.nav-links li:last-child a {
+  font-size: 22px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links li:last-child a:hover {
+  color: #f29f58;
+}
+
+/* Responsive Navbar */
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+      display: block;
+  }
+
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      background-color: #000;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+  }
+
+  .nav-links.active {
+      display: flex;
+  }
+}

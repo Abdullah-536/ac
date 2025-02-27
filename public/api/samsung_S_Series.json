@@ -1,0 +1,114 @@
+[
+    {
+        "id": 101,
+        "name": "Samsung Galaxy S22",
+        "img_src": "/Samsung/S/samsung_S22.jpg",
+        "price": "20000",
+        "category": "samsung-S-series",
+        "description": "A compact flagship with powerful performance and a stunning AMOLED display.",
+        "specifications": {
+            "RAM": "8GB",
+            "ROM": "128GB / 256GB",
+            "Processor": "Snapdragon 8 Gen 1 / Exynos 2200",
+            "Display": "6.1-inch Dynamic AMOLED 2X, 120Hz",
+            "Camera": "50MP (OIS) + 12MP (Ultra-Wide) + 10MP (Telephoto)",
+            "Battery": "3700mAh, 25W fast charging"
+        }
+    },
+    {
+        "id": 102,
+        "name": "Samsung S22 Ultra",
+        "img_src": "/Samsung/S/samsung_S22ultra.jpg",
+        "price": "20000",
+        "category": "samsung-S-series",
+        "description": "A powerhouse with S-Pen support, a massive display, and pro-grade cameras.",
+        "specifications": {
+            "RAM": "8GB / 12GB",
+            "ROM": "128GB / 256GB / 512GB / 1TB",
+            "Processor": "Snapdragon 8 Gen 1 / Exynos 2200",
+            "Display": "6.8-inch Dynamic AMOLED 2X, 120Hz",
+            "Camera": "108MP (OIS) + 12MP (Ultra-Wide) + 10MP (Periscope) + 10MP (Telephoto)",
+            "Battery": "5000mAh, 45W fast charging"
+        }
+    },
+    {
+        "id": 103,
+        "name": "Samsung S23 FE",
+        "img_src": "/Samsung/S/samsung_S23fe.jpg",
+        "price": "20000",
+        "category": "samsung-S-series",
+        "description": "An affordable flagship experience with a high-refresh-rate display and great cameras.",
+        "specifications": {
+            "RAM": "6GB / 8GB",
+            "ROM": "128GB / 256GB",
+            "Processor": "Snapdragon 8 Gen 1 / Exynos 2200",
+            "Display": "6.4-inch Dynamic AMOLED 2X, 120Hz",
+            "Camera": "50MP (OIS) + 12MP (Ultra-Wide) + 8MP (Telephoto)",
+            "Battery": "4500mAh, 25W fast charging"
+        }
+    },
+    {
+        "id": 104,
+        "name": "Samsung S23 Ultra",
+        "img_src": "/Samsung/S/samsung_S23ultra.jpg",
+        "price": "20000",
+        "category": "samsung-S-series",
+        "description": "A cutting-edge flagship with an impressive 200MP camera and S-Pen support.",
+        "specifications": {
+            "RAM": "8GB / 12GB",
+            "ROM": "256GB / 512GB / 1TB",
+            "Processor": "Snapdragon 8 Gen 2",
+            "Display": "6.8-inch Dynamic AMOLED 2X, 120Hz",
+            "Camera": "200MP (OIS) + 12MP (Ultra-Wide) + 10MP (Periscope) + 10MP (Telephoto)",
+            "Battery": "5000mAh, 45W fast charging"
+        }
+    },
+    {
+        "id": 105,
+        "name": "Samsung S24 FE",
+        "img_src": "/Samsung/S/samsung_S24fe.png",
+        "price": "20000",
+        "category": "samsung-S-series",
+        "description": "A value-for-money flagship with improved performance and premium features.",
+        "specifications": {
+            "RAM": "6GB / 8GB",
+            "ROM": "128GB / 256GB",
+            "Processor": " Snapdragon 8 Gen 2",
+            "Display": "6.5-inch Dynamic AMOLED 2X, 120Hz",
+            "Camera": "50MP (OIS) + 12MP (Ultra-Wide) + 8MP (Telephoto)",
+            "Battery": "4500mAh, 25W fast charging"
+        }
+    },
+    {
+        "id": 106,
+        "name": "Samsung S24 Ultra",
+        "img_src": "/Samsung/S/samsung_S24ultra.jpg",
+        "price": "20000",
+        "category": "samsung-S-series",
+        "description": "A beastly flagship with AI-powered camera features and enhanced durability.",
+        "specifications": {
+            "RAM": "12GB / 16GB",
+            "ROM": "256GB / 512GB / 1TB",
+            "Processor": "Snapdragon 8 Gen 3",
+            "Display": "6.8-inch Dynamic AMOLED 2X, 120Hz",
+            "Camera": "200MP (OIS) + 50MP (Periscope) + 10MP (Telephoto) + 12MP (Ultra-Wide)",
+            "Battery": "5000mAh, 45W fast charging"
+        }
+    },
+    {
+        "id": 107,
+        "name": "Samsung S25 Ultra",
+        "img_src": "/Samsung/S/samsung_S25ultra.jpg",
+        "price": "20000",
+        "category": "samsung-S-series",
+        "description": "A next-gen flagship with an AI-powered chipset and revolutionary camera tech.",
+        "specifications": {
+            "RAM": "12GB / 16GB",
+            "ROM": "256GB / 512GB / 1TB",
+            "Processor": "Snapdragon 8 Gen 4 / Exynos 2500",
+            "Display": "6.8-inch Dynamic AMOLED 2X, 144Hz",
+            "Camera": "200MP (OIS) + 50MP (Periscope) + 10MP (Telephoto) + 12MP (Ultra-Wide)",
+            "Battery": "5500mAh, 65W fast charging"
+        }
+    }
+]

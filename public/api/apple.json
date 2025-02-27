@@ -1,0 +1,107 @@
+[
+    {
+        "id": 201,
+        "name": "Iphone 13 Pro Max",
+        "img_src": "/Apple/apple_13_pro_max.jpg",
+        "price": "20000",
+        "category": "apple",
+        "description": "A powerful device with a sleek design and pro-grade camera system.",
+        "specifications": {
+            "RAM": "6GB",
+            "ROM": "128GB, 256GB, 512GB, 1TB",
+            "Processor": "A15 Bionic Chip",
+            "Display": "6.7-inch Super Retina XDR OLED"
+        },
+        "variants": ["6GB-128GB", "6GB-256GB", "6GB-512GB", "6GB-1TB"]
+    },
+    {
+        "id": 202,
+        "name": "Iphone 14 Pro Max",
+        "img_src": "/Apple/apple_14_pro_max.jpg",
+        "price": "20000",
+        "category": "apple",
+        "description": "Experience the next level of performance with Dynamic Island and always-on display.",
+        "specifications": {
+            "RAM": "6GB",
+            "ROM": "128GB, 256GB, 512GB, 1TB",
+            "Processor": "A16 Bionic Chip",
+            "Display": "6.7-inch Super Retina XDR OLED, ProMotion 120Hz"
+        },
+        "variants": ["6GB-128GB", "6GB-256GB", "6GB-512GB", "6GB-1TB"]
+    },
+    {
+        "id": 203,
+        "name": "Iphone 14 Pro",
+        "img_src": "/Apple/apple_14_pro.jpg",
+        "price": "20000",
+        "category": "apple",
+        "description": "A compact yet powerful device with a stunning Pro camera system.",
+        "specifications": {
+            "RAM": "6GB",
+            "ROM": "128GB, 256GB, 512GB, 1TB",
+            "Processor": "A16 Bionic Chip",
+            "Display": "6.1-inch Super Retina XDR OLED, ProMotion 120Hz"
+        },
+        "variants": ["6GB-128GB", "6GB-256GB", "6GB-512GB", "6GB-1TB"]
+    },
+    {
+        "id": 204,
+        "name": "Iphone 15 Pro Max",
+        "img_src": "/Apple/apple_15_pro_max.jpg",
+        "price": "20000",
+        "category": "apple",
+        "description": "Titanium design, A17 Pro chip, and the most advanced camera system yet.",
+        "specifications": {
+            "RAM": "8GB",
+            "ROM": "256GB, 512GB, 1TB",
+            "Processor": "A17 Pro Chip",
+            "Display": "6.7-inch Super Retina XDR OLED, ProMotion 120Hz"
+        },
+        "variants": ["8GB-256GB", "8GB-512GB", "8GB-1TB"]
+    },
+    {
+        "id": 205,
+        "name": "Iphone 15",
+        "img_src": "/Apple/apple_15.jpg",
+        "price": 20000,
+        "category": "apple",
+        "description": "A durable and stylish phone with excellent performance and battery life.",
+        "specifications": {
+            "RAM": "6GB",
+            "ROM": "128GB, 256GB, 512GB",
+            "Processor": "A16 Bionic Chip",
+            "Display": "6.1-inch Super Retina XDR OLED"
+        },
+        "variants": ["6GB-128GB", "6GB-256GB", "6GB-512GB"]
+    },
+    {
+        "id": 206,
+        "name": "Iphone 16 Pro Max",
+        "img_src": "/Apple/apple_16_pro_max.jpg",
+        "price": "20000",
+        "category": "apple",
+        "description": "The future of smartphones with enhanced AI features and improved performance.",
+        "specifications": {
+            "RAM": "8GB",
+            "ROM": "256GB, 512GB, 1TB, 2TB",
+            "Processor": "A18 Pro Chip",
+            "Display": "6.8-inch Super Retina XDR OLED, ProMotion 120Hz"
+        },
+        "variants": ["8GB-256GB", "8GB-512GB", "8GB-1TB", "8GB-2TB"]
+    },
+    {
+        "id": 207,
+        "name": "Iphone 16",
+        "img_src": "/Apple/apple_16.jpg",
+        "price": "20000",
+        "category": "apple",
+        "description": "A refined and efficient smartphone with cutting-edge technology.",
+        "specifications": {
+            "RAM": "6GB",
+            "ROM": "128GB, 256GB, 512GB",
+            "Processor": "A18 Bionic Chip",
+            "Display": "6.1-inch Super Retina XDR OLED"
+        },
+        "variants": ["6GB-128GB", "6GB-256GB", "6GB-512GB"]
+    }
+]

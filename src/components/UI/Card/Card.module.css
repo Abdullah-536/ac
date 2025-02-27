@@ -1,0 +1,153 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+  gap: 20px; /* Adds spacing between cards */
+  padding: 20px;
+  justify-content: center;
+}
+
+/* Ensure cards take up full width inside the grid */
+/* .card {
+  width: 100%;
+  max-width: 320px; 
+  margin: auto; 
+} */
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 320px; /* Controls card width */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-header {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.badge {
+  background-color: #007bff;
+  color: white;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.product-image {
+  width: 100%;
+  height: 220px; /* Ensure consistent height */
+  object-fit:contain;
+  border-radius: 10px;
+}
+
+.quick-look {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+}
+
+.card-body {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.product-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+  margin-top: 5px;
+}
+
+.category-tag {
+  display: inline-block;
+  background: #e0e0e0;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #333;
+  margin-top: 5px;
+}
+
+.quantity-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  background: #f8f8f8;
+  border-radius: 5px;
+}
+
+.quantity-btn {
+  background: orange;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.quantity-number {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.add-to-cart {
+  margin-top: 10px;
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.buy-now {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.learn-more {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: white;
+}
+
+.learn-more:hover {
+  background: #6e3939;
+}

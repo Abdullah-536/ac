@@ -1,0 +1,146 @@
+[
+    {
+        "id": 301,
+        "name": "Huawei Mate 50 Pro",
+        "img_src": "/Huawei/huawei_mate_50_pro.jpg",
+        "price": "30000",
+        "category": "huawei",
+        "description": "A premium flagship phone with a powerful camera system and an elegant design.",
+        "specifications": {
+            "RAM": "8GB / 12GB",
+            "ROM": "256GB / 512GB",
+            "Processor": "Snapdragon 8+ Gen 1",
+            "Display": "6.74-inch OLED, 120Hz",
+            "Camera": "50MP (Main) + 13MP (Ultra-Wide) + 64MP (Telephoto)",
+            "Battery": "4700mAh, 66W fast charging"
+        }
+    },
+    {
+        "id": 302,
+        "name": "Huawei Mate X5",
+        "img_src": "/Huawei/huawei_mate_X5.jpg",
+        "price": "30000",
+        "category": "huawei",
+        "description": "A foldable smartphone with a sleek design and high-end performance.",
+        "specifications": {
+            "RAM": "12GB",
+            "ROM": "512GB / 1TB",
+            "Processor": "Kirin 9000S",
+            "Display": "7.85-inch Foldable OLED, 120Hz",
+            "Camera": "50MP (Main) + 13MP (Ultra-Wide) + 12MP (Periscope)",
+            "Battery": "5060mAh, 66W fast charging"
+        }
+    },
+    {
+        "id": 303,
+        "name": "Huawei Mate X6",
+        "img_src": "/Huawei/huawei_mate_X6.jpg",
+        "price": "30000",
+        "category": "huawei",
+        "description": "The next-gen foldable phone with an immersive display and AI-enhanced cameras.",
+        "specifications": {
+            "RAM": "12GB / 16GB",
+            "ROM": "512GB / 1TB",
+            "Processor": "Kirin 9010",
+            "Display": "7.9-inch Foldable OLED, 144Hz",
+            "Camera": "50MP (Main) + 40MP (Ultra-Wide) + 12MP (Telephoto)",
+            "Battery": "5100mAh, 88W fast charging"
+        }
+    },
+    {
+        "id": 304,
+        "name": "Huawei Mate X10",
+        "img_src": "/Huawei/huawei_mate_X10.jpg",
+        "price": "30000",
+        "category": "huawei",
+        "description": "A futuristic foldable device with ultra-thin glass and superior multitasking capabilities.",
+        "specifications": {
+            "RAM": "12GB / 16GB",
+            "ROM": "1TB / 2TB",
+            "Processor": "Kirin 9020",
+            "Display": "8.0-inch Foldable LTPO OLED, 165Hz",
+            "Camera": "64MP (Main) + 50MP (Ultra-Wide) + 20MP (Periscope)",
+            "Battery": "5200mAh, 100W fast charging"
+        }
+    },
+    {
+        "id": 305,
+        "name": "Huawei Nova 12i",
+        "img_src": "/Huawei/huawei_nova_12I.jpg",
+        "price": "30000",
+        "category": "huawei",
+        "description": "A budget-friendly device with a smooth display and a long-lasting battery.",
+        "specifications": {
+            "RAM": "8GB",
+            "ROM": "128GB / 256GB",
+            "Processor": "Snapdragon 680",
+            "Display": "6.7-inch IPS LCD, 90Hz",
+            "Camera": "50MP (Main) + 2MP (Depth)",
+            "Battery": "5000mAh, 40W fast charging"
+        }
+    },
+    {
+        "id": 306,
+        "name": "Huawei Nova 12 SE",
+        "img_src": "/Huawei/huawei_nova_12SE.jpeg",
+        "price": "30000",
+        "category": "huawei",
+        "description": "A stylish mid-range phone with an excellent selfie camera and fast charging.",
+        "specifications": {
+            "RAM": "8GB",
+            "ROM": "128GB / 256GB",
+            "Processor": "Snapdragon 680",
+            "Display": "6.67-inch OLED, 120Hz",
+            "Camera": "108MP (Main) + 8MP (Ultra-Wide) + 2MP (Macro)",
+            "Battery": "4500mAh, 66W fast charging"
+        }
+    },
+    {
+        "id": 307,
+        "name": "Huawei Nova 13 Pro",
+        "img_src": "/Huawei/huawei_nova_13Pro.jpeg",
+        "price": "30000",
+        "category": "huawei",
+        "description": "A powerful mid-range smartphone with a curved OLED display and AI-enhanced cameras.",
+        "specifications": {
+            "RAM": "8GB / 12GB",
+            "ROM": "256GB / 512GB",
+            "Processor": "Dimensity 8200",
+            "Display": "6.8-inch Curved OLED, 120Hz",
+            "Camera": "108MP (Main) + 12MP (Ultra-Wide) + 8MP (Telephoto)",
+            "Battery": "4800mAh, 88W fast charging"
+        }
+    },
+    {
+        "id": 308,
+        "name": "Huawei Pura 70",
+        "img_src": "/Huawei/huawei_pura_70.jpg",
+        "price": "30000",
+        "category": "huawei",
+        "description": "A high-end smartphone with a Leica-powered camera system and a sleek design.",
+        "specifications": {
+            "RAM": "12GB",
+            "ROM": "256GB / 512GB / 1TB",
+            "Processor": "Kirin 9010",
+            "Display": "6.78-inch LTPO OLED, 120Hz",
+            "Camera": "50MP (Main) + 48MP (Ultra-Wide) + 12MP (Telephoto)",
+            "Battery": "5000mAh, 80W fast charging"
+        }
+    },
+    {
+        "id": 309,
+        "name": "Huawei Pura 70 Pro",
+        "img_src": "/Huawei/huawei_pura_70Pro.jpg",
+        "price": "30000",
+        "category": "huawei",
+        "description": "A premium flagship device with cutting-edge camera technology and blazing-fast performance.",
+        "specifications": {
+            "RAM": "12GB / 16GB",
+            "ROM": "512GB / 1TB",
+            "Processor": "Kirin 9020",
+            "Display": "6.8-inch LTPO OLED, 144Hz",
+            "Camera": "64MP (Main) + 50MP (Ultra-Wide) + 20MP (Periscope)",
+            "Battery": "5100mAh, 100W fast charging"
+        }
+    }
+]

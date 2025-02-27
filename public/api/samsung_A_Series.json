@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "name": "Samsung Galaxy A14",
+        "img_src": "/Samsung/A/samsung_A14.jpg",
+        "price": "20000",
+        "category": "samsung-A-series",
+        "description": "A budget-friendly smartphone with a large display and long-lasting battery.",
+        "specifications": {
+            "RAM": "4GB / 6GB",
+            "ROM": "64GB / 128GB",
+            "Processor": "Exynos 850 / MediaTek Helio G80",
+            "Display": "6.6-inch PLS LCD, 90Hz",
+            "Camera": "50MP (Main) + 2MP (Macro) + 2MP (Depth)",
+            "Battery": "5000mAh, 15W fast charging"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Samsung Galaxy A15",
+        "img_src": "/Samsung/A/samsung_A15.jpg",
+        "price": "20000",
+        "category": "samsung-A-series",
+        "description": "An improved budget smartphone with a smooth display and solid performance.",
+        "specifications": {
+            "RAM": "4GB / 6GB / 8GB",
+            "ROM": "128GB / 256GB",
+            "Processor": "MediaTek Helio G99",
+            "Display": "6.5-inch Super AMOLED, 90Hz",
+            "Camera": "50MP (Main) + 5MP (Ultra-Wide) + 2MP (Macro)",
+            "Battery": "5000mAh, 25W fast charging"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Samsung Galaxy A23",
+        "img_src": "/Samsung/A/samsung_A23.jpg",
+        "price": "20000",
+        "category": "samsung-A-series",
+        "description": "A mid-range phone with a high refresh rate display and a powerful camera system.",
+        "specifications": {
+            "RAM": "4GB / 6GB / 8GB",
+            "ROM": "64GB / 128GB",
+            "Processor": "Snapdragon 680",
+            "Display": "6.6-inch PLS LCD, 120Hz",
+            "Camera": "50MP (OIS) + 5MP (Ultra-Wide) + 2MP (Depth) + 2MP (Macro)",
+            "Battery": "5000mAh, 25W fast charging"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Samsung Galaxy A24",
+        "img_src": "/Samsung/A/samsung_A24.jpeg",
+        "price": "20000",
+        "category": "samsung-A-series",
+        "description": "A stylish mid-range phone with a high-resolution display and enhanced performance.",
+        "specifications": {
+            "RAM": "6GB / 8GB",
+            "ROM": "128GB / 256GB",
+            "Processor": "MediaTek Helio G99",
+            "Display": "6.5-inch Super AMOLED, 90Hz",
+            "Camera": "50MP (OIS) + 5MP (Ultra-Wide) + 2MP (Depth)",
+            "Battery": "5000mAh, 25W fast charging"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Samsung Galaxy A25",
+        "img_src": "/Samsung/A/samsung_A25.jpg",
+        "price": "20000",
+        "category": "samsung-A-series",
+        "description": "A feature-rich mid-range device with an upgraded processor and stunning display.",
+        "specifications": {
+            "RAM": "6GB / 8GB",
+            "ROM": "128GB / 256GB",
+            "Processor": "Exynos 1280",
+            "Display": "6.5-inch Super AMOLED, 120Hz",
+            "Camera": "50MP (OIS) + 8MP (Ultra-Wide) + 2MP (Depth)",
+            "Battery": "5000mAh, 25W fast charging"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Samsung Galaxy A33",
+        "img_src": "/Samsung/A/samsung_A33.jpg",
+        "price": "20000",
+        "category": "samsung-A-series",
+        "description": "A water-resistant smartphone with 5G connectivity and an immersive display.",
+        "specifications": {
+            "RAM": "6GB / 8GB",
+            "ROM": "128GB / 256GB",
+            "Processor": "Exynos 1280",
+            "Display": "6.4-inch Super AMOLED, 90Hz",
+            "Camera": "48MP (OIS) + 8MP (Ultra-Wide) + 5MP (Macro) + 2MP (Depth)",
+            "Battery": "5000mAh, 25W fast charging"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Samsung Galaxy A34",
+        "img_src": "/Samsung/A/samsung_A34.jpg",
+        "price": "20000",
+        "category": "samsung-A-series",
+        "description": "A premium A-series smartphone with a sleek design and smooth performance.",
+        "specifications": {
+            "RAM": "6GB / 8GB",
+            "ROM": "128GB / 256GB",
+            "Processor": "MediaTek Dimensity 1080",
+            "Display": "6.6-inch Super AMOLED, 120Hz",
+            "Camera": "48MP (OIS) + 8MP (Ultra-Wide) + 5MP (Macro)",
+            "Battery": "5000mAh, 25W fast charging"
+        }
+    }
+]

@@ -1,0 +1,212 @@
+/* DisplayCard.css */
+
+/* General Card Styling */
+.display-card {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 700px;
+  width: 1000px;
+
+  margin: 16px;
+  -webkit-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -moz-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -ms-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -o-transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.display-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+}
+
+
+
+.image-container img {
+  width: 100%;
+  height: 100%; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure full image is visible */
+  max-height: 250px; /* Adjust based on your design */
+}
+
+
+.image-container:hover img {
+  transform: scale(1.05);
+}
+
+/* Card Details Styling */
+.card-details {
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  max-width: 400px; /* Adjusts width for readability */
+}
+
+.card-details .image-name {
+  font-size: 24px;
+  font-weight: 600;
+  color: #202020;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+.card-details .spec-row {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Adds spacing between span and p */
+  margin-bottom: 10px; /* Space between each row */
+}
+
+.card-details span {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  min-width: 100px; /* Ensures labels are aligned */
+}
+
+.card-details p {
+  font-size: 14px;
+  color: #444;
+  margin: 0;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 600;
+  color: #404040;
+  margin-bottom: 12px;
+}
+
+.category {
+  font-size: 14px;
+  background-color: #d8d4d4;
+  padding: 6px 12px;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-top: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+
+/* Product Quantity Component Styling */
+.product-quantity {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+  width: 200px;
+  margin: 15px auto;
+}
+
+/* Label Styling */
+.product-quantity span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin-right: 12px;
+}
+
+/* Increment and Decrement Buttons */
+.quantity-increment,
+.quantity-decrement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: #ff5722;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  user-select: none; /* Prevent text selection */
+}
+
+.quantity-increment:hover,
+.quantity-decrement:hover {
+  background-color: #e64a19;
+}
+
+/* Quantity Display */
+.quantity {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 12px;
+  width: 30px;
+  text-align: center;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  width: 100wh;
+
+}
+/* Add to Cart Button Styling */
+button {
+  color: #291212;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 16px;
+  border: 1 px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 20px;
+  white-space: nowrap;
+   /* Prevent text wrapping */
+  -webkit-transition: background-color 0.3s ease, transform 0.2s ease;
+  -moz-transition: background-color 0.3s ease, transform 0.2s ease;
+  -ms-transition: background-color 0.3s ease, transform 0.2s ease;
+  -o-transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+
+/* Disable Button Styling */
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .display-card {
+    max-width: 100%;
+    margin: 10px;
+  }
+
+  .card-details h2 {
+    font-size: 18px;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .category {
+    font-size: 13px;
+  }
+}
