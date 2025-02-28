@@ -4,16 +4,16 @@ import { addToCart } from "../AddToCart/AddToCart";
 
 export const DisplayCard = ({ updatedMobileData }) => {
 
-  
+
   const [quantity, setQuantity] = useState(0);
 
   const setIncrement = () => {
     setQuantity((prev) => prev + 1);
   }
   const setDecrement = () => {
-    if (quantity > 0)
-      return setQuantity((prev) => prev - 1);
-    return prev;
+
+    return setQuantity((prev) => (prev > 0 ? prev - 1 : 0));
+
   }
 
   const { id, name, img_src, price, category, description, specifications, variants } = updatedMobileData;
@@ -59,7 +59,16 @@ export const DisplayCard = ({ updatedMobileData }) => {
       </div>
       <div className={styles.button}>
 
-        <button onClick={()=>addToCart({id,name,category,price,description,quantity})}>Add To Cart </button>
+        <button onClick={() => {
+          if (quantity > 0) {
+            addToCart({ id, name, category, price,img_src, description, quantity });
+            setQuantity(0);
+          } else {
+            alert("Please add a quantity before adding to cart.")
+          }
+        }}
+        >
+          Add To Cart </button>
       </div>
 
     </div>

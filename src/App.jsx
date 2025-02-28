@@ -9,6 +9,7 @@ import { Apple } from "./pages/Apple";
 import { Huawei } from "./pages/Huawei";
 import { CardDetails } from "./pages/CardDetails";
 import { getCardDetails} from "./pages/GetCardDetails";
+import { CartPage } from "./components/UI/CartPage/CartPage";
 
 
 function App() {
@@ -48,6 +49,12 @@ function App() {
           element: <CardDetails />,
           loader: getCardDetails,
           errorElement: <HandleError />,
+        },
+        {
+          path:"/add-to-cart",
+          element:<CartPage/>,
+          errorElement: <HandleError />,
+          
         }
         
           

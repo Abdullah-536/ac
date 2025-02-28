@@ -4,21 +4,30 @@ import "./Header.css";
 
 
 import { FaShoppingCart } from "react-icons/fa";
+import { CartPage } from "./UI/CartPage/CartPage";
 
 export const Header = () => {
   const [cartCount, setCartCount] =useState(0)
   
- const updateCartCount = () => {
-    let Element = JSON.parse(localStorage.getItem("setData")) || []; // Handle null case
-    const count = Element.reduce((total, item) => total + item.quantity, 0); // Correct summing method
-    setCartCount(count);
-  };
-
-
-  useEffect(()=>{
+  useEffect(() => {
+    const updateCartCount = () => {
+      let cart = JSON.parse(localStorage.getItem("setData")) || [];
+      const count = cart.reduce((total, item) => total + item.quantity, 0);
+      setCartCount(count);
+      
+    };
+  
     updateCartCount();
     
-  },[])
+  
+    // Listen for cart updates
+    window.addEventListener("cartUpdated", updateCartCount);
+  
+    return () => {
+      window.removeEventListener("cartUpdated", updateCartCount);
+    };
+  }, []);
+  
   return (
     <nav className="navbar">
       <div className="logo">MyBrand</div>
@@ -42,7 +51,7 @@ export const Header = () => {
         <li><NavLink to="/about">About</NavLink></li>
         <li><NavLink to="/services">Services</NavLink></li>
         <li><NavLink to="/contact">Contact</NavLink></li>
-        <li><NavLink to="#"><FaShoppingCart /> {cartCount}</NavLink></li>
+        <li onClick={()=> CartPage()}><NavLink to="/add-to-cart"><FaShoppingCart /> {cartCount}</NavLink></li>
       </ul>
 
     </nav>

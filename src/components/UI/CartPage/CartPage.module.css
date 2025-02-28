@@ -1,0 +1,122 @@
+/* Main container */
+.container {
+    width: 80%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+
+
+
+/* Individual cart item container now acts as a grid */
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 4 equal columns */
+    align-items: center;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.col-4:hover {
+    transform: translateY(-5px);
+}
+
+/* Category label */
+.category {
+    font-size: 12px;
+    color: #666;
+    background: #eaeaea;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Product image */
+.image img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Product name */
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Price styling */
+.price {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Quantity container */
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Quantity buttons */
+.quantity button {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.quantity span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Remove button */
+.button {
+    background: black;
+    color: rgb(236, 230, 230);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #444;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .col-4 {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .col-4 {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .col-4 {
+        grid-template-columns: repeat(1, 1fr); /* 1 column per row for mobile */
+    }
+}
